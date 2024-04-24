@@ -1,6 +1,8 @@
-/* Assigns color to button tags and when hovers over button color changes */
+/* Assigns color to button tags 
+and when hovers over button color changes */
 button {
     color: #FF0000;
+
     &:hover {
         color: #00FF00;
     }
