@@ -1,12 +1,11 @@
-/* Define variables */
-$text-color: #FF0000;
-$hover-text-color: #00FF00;
+/* Nested hover */
+$color-red: #ff0000;
+$color-green-light: #00ff00;
 
-/* Apply styles to button */
 button {
-  color: $text-color; // Text color for button tags
+  color: $color-red;
 
   &:hover {
-    color: $hover-text-color; // Text color when user hovers over button tags
+    color: $color-green-light;
   }
 }
